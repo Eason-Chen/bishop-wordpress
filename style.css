@@ -1,0 +1,288 @@
+@import "css/reset.css";
+@import "css/basic.css";
+@charset "UTF-8";
+/*
+Them Name: Bishop Wordpress Theme
+Author: 3A - Eason
+Version: 1.0
+ */
+
+/* header start */
+header{
+	min-width: 1000px;
+	height: 90px;
+}
+header .logo{
+	height: 90px;
+	background: url(imgs/Logo.png) no-repeat center center;
+}
+/* header end */
+
+/* navigation start */
+nav ul{
+	float: right;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li{
+	float: left;
+}
+nav ul li a{
+	display: block;
+	padding: 10px;
+	text-transform: uppercase;
+}
+/* navigation end */
+
+/* top banner start */
+.banner{
+	width: 100%;
+	min-width: 1000px;
+}
+.banner .slide,
+.banner .slide_img{
+	position: relative;
+	height: 600px;
+}
+.banner .top_line{
+	position: absolute;
+	bottom: 0;
+}
+.banner .slide_texttop,
+.banner .slide_textbottom,
+.banner .slide_button{
+	position: absolute;
+	color: #fff;
+	z-index: 10;
+}
+.banner .slide_texttop{
+	top: 100px;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.banner .slide_textbottom{
+	top: 170px;
+}
+.banner .slide_button{
+	top: 220px;
+	display: block;
+	padding: 15px;
+	background: #74B72C;
+}
+.banner .slide_button:hover{
+	background: #63AC22;
+}
+/* top banner end */
+
+/* bottom line start */
+.wrapper{
+	width: 100%;
+	position: relative;
+	padding-bottom: 300px;
+}
+.bottom_line{
+	min-width: 1000px;
+	position: absolute;
+	bottom: 0;
+}
+/* bottom line end */
+
+/* footer start */
+footer .phone{
+	width: inherit;
+	height: 50px;
+	background: url(imgs/phone.png) no-repeat center center;
+}
+footer .add{
+	width: inherit;
+	height: 50px;
+	background: url(imgs/address.png) no-repeat center center;
+}
+footer p{
+	text-align: center;
+}
+footer p a:hover{
+	background: transparent;
+	color: #75B82D;
+}
+/* footer end */
+
+/* home content start */
+article h2{
+	font-weight: normal;
+	font-size: 30px;
+	color: #72B92D;
+	margin-top: 30px;
+}
+article ul{
+	padding-left: 15px;
+}
+article ul li{
+	font-size: 14px;
+}
+.gray_bg{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	width: 320px;
+	background: #3E454D;
+	color: #fff;
+	text-indent: 15px;
+	margin-bottom: 15px;
+}
+.green_bg{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	width: 680px;
+	background: #75B82D;
+	color: #fff;
+	text-indent: 15px;
+	margin-bottom: 15px;
+}
+.links{
+	position: relative;
+	float: left;
+	width: 320px;
+	height: 180px;
+	background: #75B82D;
+	margin-right: 20px;
+	font-size: 30px;
+	text-transform: uppercase;
+	z-index: 10;
+	text-align: center;
+	padding: 55px 0;
+	color: #fff;
+}
+.links:last-of-type{
+	margin-right: 0;
+}
+/* home content end */
+
+/* sidebar start */
+article.sidebar .gray_bg,
+article.main .green_bg{
+	font-weight: bold;
+}
+article.sidebar,
+article.main{
+	float: left;
+	height: auto;
+}
+article.sidebar{
+	width: 320px;
+}
+article.sidebar p{
+	padding: 0 10px;
+}
+article.main{
+	width: 680px;
+}
+/* sidebar end */
+
+/* right side article start */
+.about_content{
+	float: left;
+	width: inherit;
+	padding: 0px 10px 10px 10px;
+	border-bottom: 1px dashed #75B82D;
+	margin-bottom: 15px;
+}
+.about_content:last-of-type{
+	border-bottom: none;
+}
+.about_content .about_img{
+	float: left;
+	width: 170px;
+}
+.about_content .about_img img{
+	border-radius: 170px;
+}
+.about_content .about_p{
+	float: left;
+	width: 490px;
+	padding-left: 15px;
+}
+.about_content .about_p .about_name{
+	font-size: 16px;
+	font-weight: bold;
+	color: #75B82D;
+}
+/* right side article end*/
+
+/* service content start */
+.sidebar em{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	width: 320px;
+	background: #75B82D;
+	color: #fff;
+	text-indent: 15px;
+	margin-bottom: 15px;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: -10px;
+	font-size: 18px;
+}
+.green_color{
+	color: #75B82D;
+}
+.service_content{
+	float: left;
+	width: inherit;
+	padding: 0px 15px 10px 15px;
+	border-bottom: 1px dashed #75B82D;
+	margin-bottom: 15px;
+}
+.service_content:last-of-type{
+	border-bottom: none;
+}
+.service_tit{
+	color: #75B82D;
+}
+/* service content end */
+
+/* location start */
+.location p{
+	color: #75B82D;
+	font-size: 20px;
+	font-weight: bold;
+}
+/* location end*/
+
+/* contact start */
+.contact_green{
+	text-indent: 10px;
+	color: #75B82D;
+}
+form input,
+form textarea{
+	outline: none;
+	padding: 5px;
+	border: 1px solid #D2D2D2;
+	background: #D2D2D2;
+}
+form textarea{
+	resize: none;
+}
+form{
+	position: relative;
+	z-index: 10;
+	font-size: 16px;
+	font-weight: normal;
+}
+#ninja_forms_field_6_label,
+#ninja_forms_field_1_label,
+#ninja_forms_field_3_label,
+#ninja_forms_field_2_label{
+	font-weight: normal;
+}
+.submit{
+	background: #525355;
+	color: #fff;
+	border: 1px solid #525355;
+	padding: 5px 15px;
+}
+/* contact end */
